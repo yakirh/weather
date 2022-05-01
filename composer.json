@@ -1,0 +1,16 @@
+{
+	"config": {
+		"platform": {
+			"php": "7.4.28"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"MyApp\\": "src/classes"
+		}
+	},
+	"require": {
+		"php": "~7.4",
+		"guzzlehttp/guzzle": "^7.4"
+	}
+}
